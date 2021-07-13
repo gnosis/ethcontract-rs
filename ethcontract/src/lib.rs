@@ -102,6 +102,7 @@ pub mod secret;
 pub mod tokens;
 pub mod transaction;
 pub mod transport;
+pub mod mock;
 
 pub use crate::contract::Instance;
 pub use crate::prelude::*;
